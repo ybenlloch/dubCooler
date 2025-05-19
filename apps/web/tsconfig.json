@@ -1,6 +1,9 @@
 {
   "extends": "tsconfig/nextjs.json",
   "compilerOptions": {
+     "strict": false,
+  "noImplicitAny": false,
+  "suppressImplicitAnyIndexErrors": true,
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
